@@ -1,0 +1,57 @@
+:root {
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%; /* (10/16)*100 */
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+body {
+    
+}
+
+.container {
+    margin: 10% 20%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: rgb(30, 30, 30);
+}
+
+#progress_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    width: 0%;
+    height: .6rem;
+    z-index: 10rem;
+    transition: 0.2 width ease-in-out;
+}
+
